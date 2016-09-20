@@ -8,3 +8,8 @@ $("#mycollapse>ul").on("click","li",function(){
 		left:lt
 	},1000);
 });
+
+$("#mycollapse>ul>li a").mouseover(function(){
+	$("#mycollapse>ul>li a.shake").removeClass('shake');
+	$(this).addClass('shake');
+})

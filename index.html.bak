@@ -47,7 +47,7 @@
 		<div class=" col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 main-container">
 				<ul id="slider" class="list-unstyled" style="left:-200%">
 					<li class="main-content">
-						<div>
+						<div class="text-center">
 							<h1>Home</h1>
 							<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda atque expedita, explicabo illo in, iure necessitatibus nesciunt nisi odio, officia placeat quas quo ratione similique sit sunt veniam vero.</span><span>Eum provident quae quam quo repellendus, reprehenderit sint unde? Aut commodi consequuntur debitis, deserunt distinctio doloremque dolores doloribus dolorum eligendi fuga iusto quaerat qui reiciendis. Ducimus error iusto nesciunt pariatur.</span><span>A consectetur dolorum earum fugit molestias, omnis perspiciatis provident quibusdam quisquam reiciendis! Architecto consequuntur molestias nisi? Error esse ipsam laudantium pariatur veritatis. Alias aspernatur blanditiis fugit officiis quos reiciendis repudiandae.</span>
 							</p>
@@ -56,7 +56,7 @@
 						</div>
 					</li>
 					<li class="main-content">
-						<div >
+						<div  class="text-center">
 							<h1>About</h1>
 							<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda atque expedita, explicabo illo in, iure necessitatibus nesciunt nisi odio, officia placeat quas quo ratione similique sit sunt veniam vero.</span><span>Eum provident quae quam quo repellendus, reprehenderit sint unde? Aut commodi consequuntur debitis, deserunt distinctio doloremque dolores doloribus dolorum eligendi fuga iusto quaerat qui reiciendis. Ducimus error iusto nesciunt pariatur.</span><span>A consectetur dolorum earum fugit molestias, omnis perspiciatis provident quibusdam quisquam reiciendis! Architecto consequuntur molestias nisi? Error esse ipsam laudantium pariatur veritatis. Alias aspernatur blanditiis fugit officiis quos reiciendis repudiandae.</span>
 							</p>
@@ -104,14 +104,14 @@
 						</div>
 					</li>
 					<li class="main-content">
-						<div>
+						<div class="text-center">
 							<h1>Gallary</h1>
 							<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda atque expedita, explicabo illo in, iure necessitatibus nesciunt nisi odio, officia placeat quas quo ratione similique sit sunt veniam vero.</span><span>Eum provident quae quam quo repellendus, reprehenderit sint unde? Aut commodi consequuntur debitis, deserunt distinctio doloremque dolores doloribus dolorum eligendi fuga iusto quaerat qui reiciendis. Ducimus error iusto nesciunt pariatur.</span><span>A consectetur dolorum earum fugit molestias, omnis perspiciatis provident quibusdam quisquam reiciendis! Architecto consequuntur molestias nisi? Error esse ipsam laudantium pariatur veritatis. Alias aspernatur blanditiis fugit officiis quos reiciendis repudiandae.</span>
 							</p>
 						</div>
 					</li>
 					<li class="main-content">
-						<div>
+						<div class="text-center">
 							<h1>Contact</h1>
 							<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda atque expedita, explicabo illo in, iure necessitatibus nesciunt nisi odio, officia placeat quas quo ratione similique sit sunt veniam vero.</span><span>Eum provident quae quam quo repellendus, reprehenderit sint unde? Aut commodi consequuntur debitis, deserunt distinctio doloremque dolores doloribus dolorum eligendi fuga iusto quaerat qui reiciendis. Ducimus error iusto nesciunt pariatur.</span><span>A consectetur dolorum earum fugit molestias, omnis perspiciatis provident quibusdam quisquam reiciendis! Architecto consequuntur molestias nisi? Error esse ipsam laudantium pariatur veritatis. Alias aspernatur blanditiis fugit officiis quos reiciendis repudiandae.</span>
 							</p>
