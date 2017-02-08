@@ -5,6 +5,9 @@ body{
 	background:url("../imgs/bg.jpg") no-repeat center center;
 /*	background-attachment: fixed;*/
 	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 }
 /*页头姓名*/
 #name{
@@ -28,7 +31,7 @@ body{
 }
 #Inav{
 	position:relative;
-}
+ }
 #Inav>.navbar{
 	width:100%;
 	background:transparent;
@@ -58,6 +61,9 @@ body{
 	background-color:transparent;
 	background:url("../imgs/menu_bg.png") no-repeat center 0;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 }
 #Inav .navbar-nav>li>a span{
 	position:absolute;
@@ -76,6 +82,9 @@ body{
 	padding-top:52%;
 	background:url("../imgs/menu_bg.png") no-repeat center center;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	padding-bottom:0;
 	margin-bottom:0;
 
@@ -97,6 +106,9 @@ body{
 #mycollapse{
 	border-color:transparent;
 	box-shadow:none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-webkit-box-shadow: none;
 }
 /*主体内容*/
 .main-container{
@@ -113,11 +125,14 @@ body{
 	width:19%;
 	box-sizing:border-box;
 	float:left;
+	display: inline;
 	margin:0 0.5%;
 	padding:0 0.5%;
 }
 .about>div>.row,.comment .row,.home,.contact{
 	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	background:rgba(255,255,255,0.2);
 	font-size:1.2em;
 	color:#222;
@@ -143,6 +158,7 @@ body{
 }
 .home p:last-child{
 	float:right;
+	display: inline;
 	line-height:1.5em;
 }
 .contact{
@@ -161,12 +177,17 @@ body{
 	cursor: pointer;
 	border:8px solid #fff;
 	box-shadow:0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	-moz-box-shadow: 0 0 6px #000;
 	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .grid figure img {
 	width: 100%;
 	opacity: 0.8;
+	-moz-opacity: 0.8;
 }
 
 .grid figure figcaption {
@@ -193,13 +214,17 @@ figure.effect-bubba {
 
 figure.effect-bubba img {
 	width:100%;
+	-moz-opacity: 0.7;
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
+	-moz-transition: opacity 0.35s;
+	-o-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
 figure.effect-bubba:hover img {
 	opacity: 0.4;
+	-moz-opacity: 0.4;
 }
 
 figure.effect-bubba figcaption::before,
@@ -211,7 +236,10 @@ figure.effect-bubba figcaption::after {
 	left: 20px;
 	content: '';
 	opacity: 0;
+	-moz-opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: -moz-opcity 0.35s,-moz-transform 0.35s;
+	-o-transition: -o-opcity 0.35s,-o-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -219,6 +247,9 @@ figure.effect-bubba figcaption::before {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0,1);
+	-moz-transform: scale(0,1);
+	-o-transform: scale(0,1);
+	-ms-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
@@ -226,14 +257,22 @@ figure.effect-bubba figcaption::after {
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
 	-webkit-transform: scale(1,0);
+	-moz-transform: scale(1,0);
+	-o-transform: scale(1,0);
+	-ms-transform: scale(1,0);
 	transform: scale(1,0);
 }
 
 figure.effect-bubba h2 {
 	padding-top: 10%;
 	-webkit-transition: -webkit-transform 0.35s;
+	-moz-transition: -moz-transform 0.35s;
+	-o-transition: -o-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
+	-moz-transform: translate3d(0,-20px,0);
+	-o-transform: translate3d(0,-20px,0);
+	-ms-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 	color: #fff;
 }
@@ -244,8 +283,13 @@ figure.effect-bubba p {
 	letter-spacing: 1px;
 	font-size: 0.68em;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-o-transition: opacity 0.35s, -o-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
+	-moz-transform: translate3d(0,20px,0);
+	-o-transform: translate3d(0,20px,0);
+	-ms-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
 
@@ -253,6 +297,9 @@ figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
@@ -260,6 +307,9 @@ figure.effect-bubba:hover h2,
 figure.effect-bubba:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 @media(min-width:768px){
@@ -288,39 +338,34 @@ figure.effect-bubba:hover p {
 @media(max-width:1530px){
 	body{
 		background:url("../imgs/bg.jpg") no-repeat center 45%;
+		-webkit-background-size:100% 500%;
+		-moz-background-size: 100% 500%;
+		-o-background-size: 100% 500%;
+		-ms-background-size: 100% 500%;
 		background-size:100% 500%;
 	}
-}
-@media(min-width:998px){
-	.shake{
-	transform-origin:50% 0%;
-	-webkit-animation:rotate 1s ;
-}
-@-webkit-keyframes rotate{
-	0% {-webkit-transform:rotateZ(0deg);}
-	25% {-webkit-transform:rotateZ(10deg);}
-	75% {-webkit-transform:rotateZ(-10deg);}
-	100% {-webkit-transform:rotateZ(0deg);}
-}
-
 }
 @media(max-width:998px){
 	body{
 		background:url("../imgs/bg.jpg") no-repeat center 40%;
+		-webkit-background-size:100% 800%;
+		-moz-background-size: 100% 800%;
+		-o-background-size: 100% 800%;
+		-ms-background-size: 100% 800%;
 		background-size:100% 800%;
 		font-size:1.2em;
 	}
 	#Inav .navbar-nav>li>a span{
 		top:30%;
 	}
-	.main-content .col-xs-12{
-		padding-left:0;
-	}
-	
 }
 @media(max-width:767px){
 	body{
 		background:url("../imgs/bg.jpg") no-repeat center 40%;
+		-webkit-background-size:100% 1000%;
+		-moz-background-size: 100% 1000%;
+		-o-background-size: 100% 1000%;
+		-ms-background-size:100% 1000%;
 		background-size:100% 1000%;
 	}
 	.navbar-toggle{
@@ -351,7 +396,6 @@ figure.effect-bubba:hover p {
 	}
 	.col-xs-12{
 		padding-right:0;
-    	padding-left:0;
 	}
 	.navbar{
 	min-height:50px;;
@@ -361,6 +405,9 @@ figure.effect-bubba:hover p {
 		width:30%;
 		left:35%;
 		top:15px;
+	}
+	.main-content .col-xs-12{
+		padding-left:0;
 	}
 }
 @media(max-width:570px){
